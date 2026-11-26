@@ -1,0 +1,639 @@
+{
+  "meta": {
+    "home": {
+      "title": "Digital Transformation & AI Solutions (DT&AI) — From chaos to system",
+      "description": "We turn your business's scattered processes into one intelligent management system — through AI, automation, and modern software development."
+    },
+    "services": {
+      "title": "Our Services | DT&AI",
+      "description": "AI solutions, web & mobile development, Telegram bots, ERP & CRM, business automation, systemization, and IT integration."
+    },
+    "industries": {
+      "title": "Solutions by Industry | DT&AI",
+      "description": "Structured digital solutions for trade, manufacturing, restaurants, pharmacies, education, clinics, logistics, construction, e-commerce, and services."
+    },
+    "process": {
+      "title": "How We Work | DT&AI",
+      "description": "5 transparent stages — from free diagnostics to system launch and ongoing technical support."
+    },
+    "packages": {
+      "title": "Engagement Packages | DT&AI",
+      "description": "START, BUSINESS, AI BUSINESS, and ENTERPRISE models tailored to your company's digital stage."
+    },
+    "contact": {
+      "title": "Contact & Diagnostics | DT&AI",
+      "description": "Identify the right digital solution for your business in 60 seconds and connect with our team."
+    },
+    "notFound": {
+      "title": "Page Not Found | DT&AI",
+      "description": "The requested page could not be found."
+    }
+  },
+  "common": {
+    "brandShort": "DT&AI",
+    "brandFull": "Digital Transformation & AI Solutions",
+    "details": "Learn more",
+    "allServices": "All services",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "recommendedServices": "Recommended solutions",
+    "stepLabel": "Step",
+    "backHome": "Back to home",
+    "notFoundTitle": "Page not found",
+    "notFoundDesc": "The page you are looking for has been moved or does not exist.",
+    "skipToContent": "Skip to main content",
+    "copied": "Copied",
+    "copyLabel": "Copy",
+    "backToTop": "Back to top"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Solutions",
+    "industries": "Industries",
+    "process": "Process",
+    "packages": "Packages",
+    "contact": "Contact",
+    "ariaPrimary": "Primary navigation",
+    "ariaMobile": "Mobile navigation",
+    "ariaLanguage": "Language selector",
+    "ariaTheme": "Theme selector"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "hero": {
+    "eyebrow": "YOUR FIRST DIGITAL STEP",
+    "title": "From chaos —",
+    "titleAccent": "to system.",
+    "subtitle": "We turn your business's scattered processes into one intelligent management system — through AI, automation, and modern software development.",
+    "ctaPrimary": "Start a project",
+    "ctaSecondary": "Explore services",
+    "chaosItems": [
+      "Spreadsheets",
+      "Scattered chats",
+      "Paper records",
+      "Manual reports",
+      "Disconnected tools",
+      "Delayed oversight"
+    ],
+    "hubLabel": "DT&AI Unified System"
+  },
+  "concept": {
+    "eyebrow": "SYSTEMIC APPROACH",
+    "title": "From scattered workflows to unified control",
+    "text": "Every daily task lives in its own spreadsheet, its own chat, its own decision. Data is scattered, control is hard, time is wasted. We change that: we bring every process into one system — transparent, controllable, and ready to grow.",
+    "chaosNodes": ["Excel", "Chats", "Documents", "Payments"],
+    "centerNode": "DT&AI Core",
+    "outputNodes": ["CRM / ERP", "AI Agent", "Dashboard"],
+    "dashboard": {
+      "workspace": "DT&AI CRM / ERP",
+      "status": "Live sync active",
+      "navItems": ["Overview", "Orders", "Customers", "AI Agent", "Reports"],
+      "feedTitle": "Live system activity",
+      "views": [
+        {
+          "kpis": [
+            { "label": "Active orders", "value": "148", "delta": "+18%" },
+            { "label": "AI response time", "value": "1.2s", "delta": "24/7" },
+            { "label": "Data sync", "value": "100%", "delta": "API" }
+          ],
+          "feed": [
+            { "source": "Telegram Bot", "action": "New order synced to CRM", "state": "Done" },
+            { "source": "AI Sales Agent", "action": "Customer inquiry resolved", "state": "Active" },
+            { "source": "1C / Warehouse", "action": "Stock levels reconciled", "state": "Synced" }
+          ]
+        },
+        {
+          "kpis": [
+            { "label": "Today's orders", "value": "64", "delta": "Auto" },
+            { "label": "Dispatch time", "value": "0.8s", "delta": "Queue" },
+            { "label": "Payment verified", "value": "100%", "delta": "Pay" }
+          ],
+          "feed": [
+            { "source": "Order #4821", "action": "Courier assigned automatically", "state": "In transit" },
+            { "source": "Click / Payme", "action": "Settlement webhook confirmed", "state": "Paid" },
+            { "source": "Warehouse #2", "action": "Inventory stock reserved", "state": "Ready" }
+          ]
+        },
+        {
+          "kpis": [
+            { "label": "New leads", "value": "39", "delta": "+24%" },
+            { "label": "Active segments", "value": "12", "delta": "CRM" },
+            { "label": "Follow-up", "value": "Auto", "delta": "Sequence" }
+          ],
+          "feed": [
+            { "source": "CRM Pipeline", "action": "Client profile enriched", "state": "Updated" },
+            { "source": "Web Intake", "action": "New B2B inquiry assigned", "state": "Owned" },
+            { "source": "Reminder", "action": "Follow-up call scheduled", "state": "Planned" }
+          ]
+        },
+        {
+          "kpis": [
+            { "label": "Handled chats", "value": "312", "delta": "AI" },
+            { "label": "Auto-resolved", "value": "89%", "delta": "Auto" },
+            { "label": "Knowledge base", "value": "Live", "delta": "RAG" }
+          ],
+          "feed": [
+            { "source": "AI Support", "action": "Answered SLA & scope query", "state": "Resolved" },
+            { "source": "AI Document", "action": "Invoice fields extracted cleanly", "state": "Synced" },
+            { "source": "Escalation", "action": "Complex brief routed to lead", "state": "Handed off" }
+          ]
+        },
+        {
+          "kpis": [
+            { "label": "Daily digest", "value": "09:00", "delta": "Auto" },
+            { "label": "Branches live", "value": "8 / 8", "delta": "Online" },
+            { "label": "Telemetry", "value": "Real-time", "delta": "BI" }
+          ],
+          "feed": [
+            { "source": "Exec Dashboard", "action": "Weekly P&L summary compiled", "state": "Ready" },
+            { "source": "KPI Engine", "action": "Department scores updated", "state": "Active" },
+            { "source": "Export", "action": "Delivered to founder Telegram", "state": "Sent" }
+          ]
+        }
+      ]
+    },
+    "comparison": {
+      "beforeLabel": "Scattered state",
+      "afterLabel": "Unified system",
+      "beforePoints": [
+        "Isolated spreadsheets and duplicate manual files",
+        "Tasks and decisions lost across chat threads",
+        "Delayed reports compiled manually at day's end",
+        "Data silos between departments and branches"
+      ],
+      "afterPoints": [
+        "Single CRM/ERP source of truth across teams",
+        "Web and Telegram inquiries captured automatically",
+        "Live executive dashboards and operational oversight",
+        "1C, payments, and AI agents connected via API"
+      ]
+    }
+  },
+  "services": {
+    "eyebrow": "SOLUTIONS",
+    "title": "Our Services",
+    "subtitle": "8 core capabilities to digitize, automate, and systemize your business with AI.",
+    "items": {
+      "ai": {
+        "title": "AI & Artificial Intelligence Solutions",
+        "desc": "We speed up communication, analysis, and repetitive tasks with AI."
+      },
+      "web": {
+        "title": "Web Development",
+        "desc": "Fast, beautiful, and scalable web platforms for your company."
+      },
+      "mobile": {
+        "title": "Mobile App Development",
+        "desc": "iOS and Android apps built around your business needs."
+      },
+      "telegram": {
+        "title": "Telegram Bot Development",
+        "desc": "Bots that automate sales, orders, and customer communication."
+      },
+      "erp_crm": {
+        "title": "ERP & CRM",
+        "desc": "We unite every department of your business into one management environment."
+      },
+      "automation": {
+        "title": "Business Automation",
+        "desc": "We automate repetitive tasks and free up your time."
+      },
+      "systemization": {
+        "title": "Business Systemization",
+        "desc": "We structure your processes from scratch into a controllable system."
+      },
+      "integration": {
+        "title": "IT Integration & Technical Support",
+        "desc": "We connect your software, servers, and services into one seamless environment."
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "INDUSTRIES",
+    "title": "Solutions by Industry",
+    "subtitle": "Every industry has distinct workflows and bottlenecks — we tailor the system around how your business operates.",
+    "items": {
+      "trade": {
+        "name": "Trade & Distribution",
+        "tags": ["CRM", "ERP", "inventory control", "AI sales agent"]
+      },
+      "manufacturing": {
+        "name": "Manufacturing",
+        "tags": ["ERP", "raw material tracking", "HRM", "reporting"]
+      },
+      "restaurant": {
+        "name": "Restaurants & Cafés",
+        "tags": ["POS", "order system", "delivery", "Telegram bot"]
+      },
+      "pharmacy": {
+        "name": "Pharmacies",
+        "tags": ["ERP", "inventory", "branch control", "AI agent"]
+      },
+      "education": {
+        "name": "Education Centers",
+        "tags": ["CRM", "LMS", "student portal", "payment system"]
+      },
+      "clinics": {
+        "name": "Clinics",
+        "tags": ["Appointment booking", "CRM", "AI assistant"]
+      },
+      "logistics": {
+        "name": "Logistics",
+        "tags": ["ERP", "cargo tracking", "routing", "CRM"]
+      },
+      "construction": {
+        "name": "Construction",
+        "tags": ["Project management", "expenses", "inventory control"]
+      },
+      "ecommerce": {
+        "name": "Online Stores",
+        "tags": ["E-commerce", "CRM", "payments", "delivery"]
+      },
+      "services": {
+        "name": "Service Businesses",
+        "tags": ["CRM", "booking", "AI customer support"]
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "PROCESS",
+    "title": "How We Work",
+    "subtitle": "5 transparent stages — from initial diagnostics to system launch and ongoing support.",
+    "steps": [
+      {
+        "title": "Free diagnostics",
+        "desc": "We identify your business needs through a short questionnaire."
+      },
+      {
+        "title": "Solution proposal",
+        "desc": "We present 1–3 solutions tailored specifically to you."
+      },
+      {
+        "title": "Technical discussion",
+        "desc": "We finalize project scope, timeline, and pricing."
+      },
+      {
+        "title": "Development",
+        "desc": "Our team builds the solution step by step, keeping you informed at every stage."
+      },
+      {
+        "title": "Launch & support",
+        "desc": "We launch the system, train your team, and provide ongoing technical support."
+      }
+    ],
+    "deliverables": [
+      "Audit brief",
+      "1–3 options",
+      "Scope & spec",
+      "Phased build",
+      "Launch & care"
+    ]
+  },
+  "command": {
+    "buttonLabel": "Quick navigation",
+    "placeholder": "Search sections, services, industries, or contacts...",
+    "empty": "No matching items found.",
+    "escHint": "ESC close",
+    "navHint": "↑↓ select · Enter open",
+    "groupSections": "Sections",
+    "groupServices": "Services",
+    "groupContact": "Direct contact",
+    "groupPreferences": "Language & theme"
+  },
+  "standards": {
+    "eyebrow": "ENGINEERING STANDARDS",
+    "title": "Architectural principles behind every build",
+    "subtitle": "We engineer maintainable, server-secured, modular digital foundations designed to grow with your company.",
+    "items": [
+      {
+        "tag": "MODULAR · API",
+        "title": "Modular, scalable architecture",
+        "desc": "Start with a single START deliverable and seamlessly add ERP, CRM, and AI modules as operations expand without rebuilding."
+      },
+      {
+        "tag": "SECURITY · ENV",
+        "title": "Server-isolated security boundary",
+        "desc": "Credentials, role permissions, and integration tokens stay strictly on the server layer — never exposed in client code."
+      },
+      {
+        "tag": "1C · PAY · BOT",
+        "title": "Connected to your existing tools",
+        "desc": "Your active 1C accounting, payment providers, warehouse tools, and Telegram channels unify into one connected flow."
+      },
+      {
+        "tag": "SOP · HANDOVER",
+        "title": "Team onboarding & ongoing support",
+        "desc": "At launch, we train your staff, deliver clear operational documentation, and stay on board for continuous technical support."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "subtitle": "Clear answers on project scoping, legacy software integration, and post-launch technical care.",
+    "items": [
+      {
+        "q": "How are project scope, timeline, and budget determined?",
+        "a": "After the free diagnostic and technical discussion, we align on exact module scope, delivery schedule, and commercial structure tailored to your business."
+      },
+      {
+        "q": "We already use 1C, spreadsheets, or a Telegram bot — do we have to replace everything?",
+        "a": "No. We connect your existing accounting tools, payment gateways, and messaging channels via API into the unified system."
+      },
+      {
+        "q": "Can we start with one focused deliverable and scale later?",
+        "a": "Yes. You can begin with a single solution under START and progressively expand into BUSINESS and AI BUSINESS modules."
+      },
+      {
+        "q": "Are AI agents tailored to our specific business rules and catalog?",
+        "a": "Yes, AI workflows are configured around your knowledge base, service policies, internal documents, and CRM data."
+      },
+      {
+        "q": "Do you provide team training and support after launch?",
+        "a": "Yes — stage 5 covers full launch, staff training, and continuous technical support and system evolution."
+      }
+    ]
+  },
+  "packages": {
+    "eyebrow": "PACKAGES",
+    "title": "Engagement Packages",
+    "subtitle": "From a single focused solution to full digital transformation — choose the format that fits your stage.",
+    "items": {
+      "start": {
+        "name": "START",
+        "tagline": "Start with one focused solution",
+        "content": "A website, Telegram bot, or basic CRM",
+        "bullets": ["Website or landing page", "Telegram bot", "Basic CRM"],
+        "model": "One-time project",
+        "cta": "Get started"
+      },
+      "business": {
+        "name": "BUSINESS",
+        "tagline": "Unify your processes into one system",
+        "content": "ERP/CRM, automation, and integrations",
+        "bullets": ["ERP / CRM platform", "Workflow automation", "Service integrations"],
+        "model": "Project + technical support",
+        "cta": "Learn more"
+      },
+      "ai_business": {
+        "name": "AI BUSINESS",
+        "badge": "Recommended",
+        "tagline": "Bring AI into your business",
+        "content": "AI Agent, AI integration, and automation",
+        "bullets": ["AI Agent", "AI integration", "Automation"],
+        "model": "Implementation + subscription service",
+        "cta": "Learn more"
+      },
+      "enterprise": {
+        "name": "ENTERPRISE",
+        "tagline": "Full digital transformation",
+        "content": "A solution spanning multiple departments and systems",
+        "bullets": ["Multi-department coverage", "Cross-system unification", "Custom architecture"],
+        "model": "Custom contract",
+        "cta": "Contact us"
+      }
+    }
+  },
+  "diagnostic": {
+    "eyebrow": "DIAGNOSTICS",
+    "title": "In 60 seconds — we'll find the right solution for you",
+    "subtitle": "Answer 4 quick questions so we understand your needs before we talk.",
+    "q1": {
+      "label": "Industry",
+      "title": "Which industry does your business operate in?",
+      "options": ["Trade", "Manufacturing", "Services", "Other"]
+    },
+    "q2": {
+      "label": "Main challenge",
+      "title": "What is your biggest bottleneck right now?",
+      "options": ["Processes are chaotic", "Data is scattered", "No staff oversight", "Weak customer handling"]
+    },
+    "q3": {
+      "label": "Solution interest",
+      "title": "Which solution interests you most?",
+      "options": ["Website or app", "CRM/ERP", "AI solution", "Not sure yet"]
+    },
+    "q4": {
+      "label": "Team size",
+      "title": "How many people are in your team?",
+      "options": ["1–10", "11–50", "51–200", "200+"]
+    },
+    "q5": {
+      "label": "Contact details",
+      "title": "How should we reach you?",
+      "subtitle": "Leave your contact details so our team can share 1–3 tailored solution options.",
+      "nameLabel": "Your name",
+      "namePlaceholder": "Full name",
+      "phoneLabel": "Phone number",
+      "phonePlaceholder": "+998 90 123 45 67",
+      "telegramLabel": "Telegram username",
+      "telegramPlaceholder": "@username",
+      "companyLabel": "Company name (optional)",
+      "companyPlaceholder": "Your company name",
+      "contactHint": "Please provide at least a phone number or Telegram username.",
+      "nameError": "Please enter your name.",
+      "contactError": "Enter a phone number or Telegram username."
+    },
+    "selectedContextLabel": "Selected track",
+    "clearContext": "Clear",
+    "editStepHint": "Click to edit",
+    "navBack": "Back",
+    "navNext": "Next",
+    "navSubmit": "Submit",
+    "success": "Thank you! Our team will contact you within 24 hours.",
+    "errorValidation": "Please answer all questions.",
+    "errorContact": "Please enter your name along with a phone number or Telegram username.",
+    "errorNetwork": "Something went wrong. Please try again or reach out directly via Telegram.",
+    "errorRateLimit": "Too many requests. Please try again in a moment.",
+    "reset": "Start another diagnostic",
+    "workflowTitle": "What happens after you submit?",
+    "workflowSteps": [
+      {
+        "title": "Delivered immediately",
+        "desc": "Your diagnostic answers and contact details reach our team right away."
+      },
+      {
+        "title": "Response within 24 hours",
+        "desc": "A specialist reaches out via the phone number or Telegram handle you provided."
+      },
+      {
+        "title": "Tailored solution options",
+        "desc": "We review 1–3 practical approaches built around your workflow and next steps."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Let's take the first step together",
+    "subtitle": "You are our first partner — which means your project gets our full attention and a truly personal approach.",
+    "cta": "Start with diagnostics"
+  },
+  "contactPage": {
+    "eyebrow": "CONTACT",
+    "title": "Contact & Diagnostics",
+    "subtitle": "Complete the short brief — our team will prepare tailored options and reach out.",
+    "infoTitle": "Contact channels",
+    "infoNote": "Reach out directly through any channel below or submit the 60-second diagnostic brief.",
+    "channels": {
+      "phone": "Phone",
+      "telegram": "Telegram",
+      "email": "Email",
+      "instagram": "Instagram",
+      "github": "GitHub"
+    }
+  },
+  "footer": {
+    "logo": "DT&AI",
+    "tagline": "We digitize your business, automate it, and unify management into one system.",
+    "navTitle": "Navigation",
+    "langTitle": "Language & contact",
+    "contactPlaceholder": "Direct channels:",
+    "copyright": "© 2026 Digital Transformation & AI Solutions. All rights reserved."
+  },
+  "servicePage": {
+    "breadcrumbServices": "Services",
+    "featuresTitle": "What's included",
+    "industriesTitle": "Who it's for",
+    "industriesNote": "The solution is adapted to your line of business and existing software.",
+    "ctaTitle": "Is this the right solution for you?",
+    "ctaText": "Through a 60-second diagnostic we'll identify your needs and suggest 1–3 suitable solutions.",
+    "ctaButton": "Start with diagnostics",
+    "relatedTitle": "See also",
+    "backToAll": "All services"
+  },
+  "servicePages": {
+    "ai": {
+      "meta": {
+        "title": "AI & Artificial Intelligence Solutions | DT&AI",
+        "description": "AI agents, AI sales manager, AI call center and more: automate communication, analysis, and repetitive tasks."
+      },
+      "lead": "Artificial intelligence takes over communication, analysis, and repetitive tasks: it answers customers quickly, organizes data, and frees your team's time for what matters. The solution is built around your processes and existing software.",
+      "features": [
+        { "title": "AI Agent", "desc": "A virtual agent that talks to customers or employees and carries out defined tasks." },
+        { "title": "AI Sales Manager", "desc": "Handles inquiries, answers customer questions, and supports the sales process." },
+        { "title": "AI Customer Support", "desc": "Fast customer help and answers to frequently asked questions." },
+        { "title": "AI Call Center", "desc": "AI solutions for answering and routing voice calls." },
+        { "title": "AI HR Assistant", "desc": "Screens candidate information and supports HR processes." },
+        { "title": "AI Business Analyst", "desc": "Analyzes business data and prepares insights for management." },
+        { "title": "AI Voice Assistant", "desc": "Processes voice commands and requests." },
+        { "title": "AI Document Processing", "desc": "Extracts, classifies, and processes information from documents." },
+        { "title": "AI Integration", "desc": "Connects AI features to your existing software and workflows." }
+      ]
+    },
+    "web": {
+      "meta": {
+        "title": "Web Development — Websites & Platforms | DT&AI",
+        "description": "Corporate websites, online stores, SaaS platforms, and customer portals. Built around your business."
+      },
+      "lead": "We build websites and web platforms for your company, service, or product — user-friendly, well-structured, and ready to grow with your business.",
+      "features": [
+        { "title": "Corporate websites & landing pages", "desc": "Sites that present your company and pages built around one clear goal." },
+        { "title": "Online stores & marketplaces", "desc": "Stores for selling online and multi-vendor platforms." },
+        { "title": "SaaS platforms", "desc": "Subscription-based services and platforms." },
+        { "title": "Accounts, portals & dashboards", "desc": "Personal accounts, portals, and control panels for customers and staff." },
+        { "title": "Ordering, booking & appointment systems", "desc": "Online systems for placing orders, making reservations, and booking appointments." },
+        { "title": "Custom web platforms", "desc": "Platforms developed around a client's specific needs." }
+      ]
+    },
+    "mobile": {
+      "meta": {
+        "title": "Mobile App Development (Android & iOS) | DT&AI",
+        "description": "Mobile apps for ordering, delivery, education, fintech, and corporate needs — for Android and iOS."
+      },
+      "lead": "We build Android and iOS apps around your business tasks — from taking orders to payments and custom corporate solutions.",
+      "features": [
+        { "title": "Android & iOS apps", "desc": "Mobile apps for both platforms." },
+        { "title": "Online store & ordering apps", "desc": "Apps for selling products and taking orders." },
+        { "title": "Delivery, taxi & transport apps", "desc": "Apps for delivery, taxi, and transport services." },
+        { "title": "Education platforms & learning apps", "desc": "Apps for online learning and study processes." },
+        { "title": "Fintech & payment apps", "desc": "Apps related to payments and financial services." },
+        { "title": "Corporate & custom apps", "desc": "Apps for a company's internal needs and specialized business tasks." }
+      ]
+    },
+    "telegram": {
+      "meta": {
+        "title": "Telegram Bot Development | DT&AI",
+        "description": "Telegram bots for sales, orders, and payments, with CRM integration — including AI-powered bots."
+      },
+      "lead": "Telegram is where your customers already are. We automate sales, orders, payments, and communication through a Telegram bot, connecting AI and CRM when needed.",
+      "features": [
+        { "title": "AI-powered bots", "desc": "AI Telegram bots that answer questions in natural language." },
+        { "title": "Sales, order & store bots", "desc": "Bots for showcasing products, taking orders, and selling." },
+        { "title": "Payment & billing bots", "desc": "Bots for accepting payments and handling settlements." },
+        { "title": "CRM-integrated bots", "desc": "Inquiries and customer data flow straight into your CRM." },
+        { "title": "Registration, quiz & learning bots", "desc": "Bots for sign-ups, running quizzes, and teaching." },
+        { "title": "Notification, monitoring & corporate bots", "desc": "Bots for sending notifications, tracking status, and internal corporate tasks." }
+      ]
+    },
+    "erp_crm": {
+      "meta": {
+        "title": "ERP & CRM Systems | DT&AI",
+        "description": "ERP and CRM solutions that unite sales, inventory, finance, HRM, and branches in one management system."
+      },
+      "lead": "We bring your business's departments into one data and management environment: customers, sales, inventory, finance, and staff live in one system, while management sees the full picture on a single dashboard.",
+      "features": [
+        { "title": "ERP", "desc": "Management of resources, operations, and internal processes." },
+        { "title": "CRM", "desc": "Management of customers, inquiries, sales, and relationships." },
+        { "title": "Sales, orders & customer base", "desc": "Keeping sales, orders, and your customer base in one place." },
+        { "title": "Warehouse & inventory tracking", "desc": "Tracking product stock and inventory." },
+        { "title": "Finance & accounting integration", "desc": "Connection with financial and accounting systems." },
+        { "title": "HRM", "desc": "Management of employees, working hours, and payroll processes." },
+        { "title": "Logistics, procurement & supply", "desc": "Management of logistics, purchasing, and supply." },
+        { "title": "Branches & points of sale", "desc": "Managing several branches and points of sale from one system." },
+        { "title": "Unified executive dashboard", "desc": "A single analytics panel for management." }
+      ]
+    },
+    "automation": {
+      "meta": {
+        "title": "Business Process Automation | DT&AI",
+        "description": "Automation of reports, orders, notifications, and repetitive tasks."
+      },
+      "lead": "We hand repetitive manual work over to software: reports build themselves, orders are tracked, notifications go out on time. Your team focuses on what matters.",
+      "features": [
+        { "title": "Repetitive task automation", "desc": "Moving daily manual work into automatic mode." },
+        { "title": "Sales & customer workflows", "desc": "Automating the stages of sales and customer communication." },
+        { "title": "Automatic reporting", "desc": "Reports are prepared automatically and sent to the right people." },
+        { "title": "Staff activity monitoring", "desc": "Tracking and oversight of staff activity." },
+        { "title": "Order processing & tracking", "desc": "Processing orders and tracking their status." },
+        { "title": "External services, APIs & payments", "desc": "Integration with external services, APIs, and payment systems." },
+        { "title": "Notifications, reminders & approvals", "desc": "Notifications, reminders, and approval flows." }
+      ]
+    },
+    "systemization": {
+      "meta": {
+        "title": "Business Systemization: Audit, SOPs, KPIs | DT&AI",
+        "description": "Business diagnostics, regulations, SOPs, and KPIs — then a move to digital management."
+      },
+      "lead": "Sometimes the problem isn't the software — it's the processes themselves. We analyze your business from scratch, define tasks and responsibilities, create regulations and a KPI system, then move it all into digital management.",
+      "features": [
+        { "title": "Business diagnostics & audit", "desc": "Studying and auditing your existing processes." },
+        { "title": "Business model & organizational structure", "desc": "Shaping the business model and organizational structure." },
+        { "title": "Processes, tasks & responsibilities", "desc": "Clearly defining workflows, tasks, and accountability." },
+        { "title": "Internal regulations & SOP documents", "desc": "Developing internal regulations and standard operating procedures (SOPs)." },
+        { "title": "KPI & performance evaluation system", "desc": "Creating a KPI and employee performance evaluation system." },
+        { "title": "Sales department & customer-handling system", "desc": "Setting up the sales department and customer-handling system." },
+        { "title": "Financial control & management reports", "desc": "Organizing financial control and management reporting." },
+        { "title": "Move to digital management", "desc": "Moving the business onto a digital management system." }
+      ]
+    },
+    "integration": {
+      "meta": {
+        "title": "IT Integration & Technical Support | DT&AI",
+        "description": "APIs, payment systems, 1C integration, server and cloud setup, cybersecurity, and technical support."
+      },
+      "lead": "Even good standalone programs create extra manual work when they don't exchange data. We connect your software, payment systems, 1C, and servers — and keep them technically supported.",
+      "features": [
+        { "title": "Software-to-software integration", "desc": "Linking different programs so they exchange data." },
+        { "title": "API development & connection", "desc": "Building APIs and connecting existing API services." },
+        { "title": "Payment systems & billing services", "desc": "Integrating payment systems and billing services." },
+        { "title": "1C & other accounting systems", "desc": "Integration with 1C and other accounting systems." },
+        { "title": "Servers, databases & cloud", "desc": "Setting up servers, databases, and cloud infrastructure." },
+        { "title": "Cybersecurity", "desc": "Technical solutions for cybersecurity." },
+        { "title": "Technical support & development", "desc": "Technical support and ongoing development of software products." }
+      ]
+    }
+  }
+}
+

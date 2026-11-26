@@ -1,0 +1,910 @@
+{
+  "meta": {
+    "home": {
+      "title": "Digital Transformation & AI Solutions (DT&AI) — Tartibsizlikdan tizimga",
+      "description": "Biznesingizning tarqoq jarayonlarini yagona, aqlli boshqaruv tizimiga aylantiramiz — AI, avtomatlashtirish va zamonaviy dasturlash orqali."
+    },
+    "services": {
+      "title": "Xizmatlarimiz | DT&AI",
+      "description": "AI yechimlari, Web va Mobil ilovalar, Telegram botlar, ERP & CRM, avtomatlashtirish, tizimlashtirish va IT integratsiya."
+    },
+    "industries": {
+      "title": "Sohalar bo'yicha yechimlar | DT&AI",
+      "description": "Savdo, ishlab chiqarish, restoran, dorixona, ta'lim, klinika, logistika, qurilish, e-commerce va xizmat ko'rsatish sohalari uchun tizimli yechimlar."
+    },
+    "process": {
+      "title": "Qanday ishlaymiz | DT&AI",
+      "description": "Bepul diagnostikadan tizimni joriy etish va doimiy qo'llab-quvvatlashgacha bo'lgan 5 bosqichli ish jarayoni."
+    },
+    "packages": {
+      "title": "Paketlar | DT&AI",
+      "description": "START, BUSINESS, AI BUSINESS va ENTERPRISE hamkorlik formatlari — biznesingiz bosqichiga mos yechimlar."
+    },
+    "contact": {
+      "title": "Aloqa va Diagnostika | DT&AI",
+      "description": "60 soniyada biznesingizga mos raqamli yechimni aniqlang va jamoamiz bilan bog'laning."
+    },
+    "notFound": {
+      "title": "Sahifa topilmadi | DT&AI",
+      "description": "So'ralgan sahifa topilmadi."
+    }
+  },
+  "common": {
+    "brandShort": "DT&AI",
+    "brandFull": "Digital Transformation & AI Solutions",
+    "details": "Batafsil",
+    "allServices": "Barcha xizmatlar",
+    "menuOpen": "Menyuni ochish",
+    "menuClose": "Menyuni yopish",
+    "recommendedServices": "Mos yechimlar",
+    "stepLabel": "Bosqich",
+    "backHome": "Bosh sahifaga qaytish",
+    "notFoundTitle": "Sahifa topilmadi",
+    "notFoundDesc": "Siz qidirayotgan sahifa ko'chirilgan yoki mavjud emas.",
+    "skipToContent": "Asosiy kontentga o'tish",
+    "copied": "Nusxalandi",
+    "copyLabel": "Nusxalash",
+    "backToTop": "Yuqoriga"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "services": "Yechimlar",
+    "industries": "Sohalar",
+    "process": "Jarayon",
+    "packages": "Paketlar",
+    "contact": "Aloqa",
+    "ariaPrimary": "Asosiy navigatsiya",
+    "ariaMobile": "Mobil navigatsiya",
+    "ariaLanguage": "Til tanlash",
+    "ariaTheme": "Mavzu rejimi"
+  },
+  "theme": {
+    "light": "Yorug'",
+    "dark": "Tungi",
+    "system": "Tizim"
+  },
+  "hero": {
+    "eyebrow": "BIRINCHI RAQAMLI QADAM",
+    "title": "Tartibsizlikdan —",
+    "titleAccent": "tizimga.",
+    "subtitle": "Biznesingizning tarqoq jarayonlarini yagona, aqlli boshqaruv tizimiga aylantiramiz — AI, avtomatlashtirish va zamonaviy dasturlash orqali.",
+    "ctaPrimary": "Loyihani boshlash",
+    "ctaSecondary": "Xizmatlarni ko'rish",
+    "chaosItems": [
+      "Excel jadvallar",
+      "Chat yozishmalar",
+      "Qog'oz hujjatlar",
+      "Qo'lda hisobotlar",
+      "Alohida servislar",
+      "Kechikkan nazorat"
+    ],
+    "hubLabel": "DT&AI Yagona Tizim"
+  },
+  "concept": {
+    "eyebrow": "TIZIMLI YONDASHUV",
+    "title": "Tarqoq jarayonlardan yagona boshqaruvgacha",
+    "text": "Har bir kundalik vazifa — alohida Excel fayl, alohida chat, alohida qaror. Ma'lumot tarqoq, nazorat qiyin, vaqt behuda ketadi. Biz buni o'zgartiramiz: barcha jarayonlarni bitta tizimga yig'amiz — shaffof, nazorat qilinadigan va o'sishga tayyor.",
+    "chaosNodes": [
+      "Excel",
+      "Chatlar",
+      "Hujjatlar",
+      "To'lovlar"
+    ],
+    "centerNode": "DT&AI Core",
+    "outputNodes": [
+      "CRM / ERP",
+      "AI Agent",
+      "Dashboard"
+    ],
+    "dashboard": {
+      "workspace": "DT&AI CRM / ERP",
+      "status": "Jonli sinxronizatsiya",
+      "navItems": [
+        "Umumiy",
+        "Buyurtmalar",
+        "Mijozlar",
+        "AI Agent",
+        "Hisobotlar"
+      ],
+      "feedTitle": "So'nggi tizim hodisalari",
+      "views": [
+        {
+          "kpis": [
+            { "label": "Faol buyurtmalar", "value": "148", "delta": "+18%" },
+            { "label": "AI javob vaqti", "value": "1.2s", "delta": "24/7" },
+            { "label": "Jarayonlar ulanishi", "value": "100%", "delta": "API" }
+          ],
+          "feed": [
+            { "source": "Telegram Bot", "action": "Yangi buyurtma CRM ga yozildi", "state": "Bajarildi" },
+            { "source": "AI Sales Agent", "action": "Mijoz so'roviga javob berildi", "state": "Faol" },
+            { "source": "1C / Ombor", "action": "Qoldiq ma'lumotlari yangilandi", "state": "Sinxron" }
+          ]
+        },
+        {
+          "kpis": [
+            { "label": "Bugungi buyurtmalar", "value": "64", "delta": "Avto" },
+            { "label": "Qayta ishlash", "value": "0.8s", "delta": "Queue" },
+            { "label": "To'lov tasdig'i", "value": "100%", "delta": "Pay" }
+          ],
+          "feed": [
+            { "source": "Order #4821", "action": "Kuryerga avtomatik biriktirildi", "state": "Yo'lda" },
+            { "source": "Click / Payme", "action": "To'lov holati tasdiqlandi", "state": "To'landi" },
+            { "source": "Ombor #2", "action": "Zaxira band qilindi", "state": "Tayyor" }
+          ]
+        },
+        {
+          "kpis": [
+            { "label": "Yangi lidlar", "value": "39", "delta": "+24%" },
+            { "label": "Faol segmentlar", "value": "12", "delta": "CRM" },
+            { "label": "Qayta murojaat", "value": "Avto", "delta": "Follow-up" }
+          ],
+          "feed": [
+            { "source": "CRM Voronka", "action": "Mijoz kartasi avtomatik boyitildi", "state": "Yangilandi" },
+            { "source": "Web Forma", "action": "Yangi B2B ariza taqsimlandi", "state": "Menejerda" },
+            { "source": "Eslatma", "action": "Qayta qo'ng'iroq vazifasi yaratildi", "state": "Rejada" }
+          ]
+        },
+        {
+          "kpis": [
+            { "label": "Qabul qilingan chatlar", "value": "312", "delta": "AI" },
+            { "label": "Avtomatik yechim", "value": "89%", "delta": "Auto" },
+            { "label": "Bilimlar bazasi", "value": "Jonli", "delta": "RAG" }
+          ],
+          "feed": [
+            { "source": "AI Support", "action": "Narx va muddat bo'yicha javob berdi", "state": "Yopildi" },
+            { "source": "AI Hujjat", "action": "Hisob-faktura maydonlari ajratildi", "state": "Sinxron" },
+            { "source": "Operator Handover", "action": "Murakkab so'rov mutaxassisga o'tdi", "state": "Uzatildi" }
+          ]
+        },
+        {
+          "kpis": [
+            { "label": "Kunlik hisobot", "value": "09:00", "delta": "Avto" },
+            { "label": "Filiallar holati", "value": "8 / 8", "delta": "Online" },
+            { "label": "Sinxronizatsiya", "value": "Real-time", "delta": "BI" }
+          ],
+          "feed": [
+            { "source": "Rahbar Dashboard", "action": "Haftalik P&L xulosasi shakllandi", "state": "Tayyor" },
+            { "source": "KPI Modul", "action": "Bo'lim ko'rsatkichlari hisoblandi", "state": "Faol" },
+            { "source": "Eksport", "action": "Telegram rahbariyat kanaliga yuborildi", "state": "Yuborildi" }
+          ]
+        }
+      ]
+    },
+    "comparison": {
+      "beforeLabel": "Tarqoq holat",
+      "afterLabel": "Yagona tizim",
+      "beforePoints": [
+        "Alohida Excel fayllar va dublikat jadvallar",
+        "Chatlarda yo'qolib ketadigan topshiriqlar",
+        "Qo'lda yig'iladigan kechikkan hisobotlar",
+        "Bo'limlar orasida ma'lumot uzilishi"
+      ],
+      "afterPoints": [
+        "Yagona CRM/ERP bazasida umumiy haqiqat",
+        "Telegram va veb murojaatlar avtomatik qayd etiladi",
+        "Rahbar panelida real vaqtdagi tahlil va nazorat",
+        "1C, to'lovlar va AI agentlar o'zaro uzluksiz ulanadi"
+      ]
+    }
+  },
+  "services": {
+    "eyebrow": "YECHIMLAR",
+    "title": "Xizmatlarimiz",
+    "subtitle": "Biznesingizni raqamlashtirish, avtomatlashtirish va AI asosida tizimlashtirish uchun 8 ta asosiy yo'nalish.",
+    "items": {
+      "ai": {
+        "title": "AI & Sun'iy intellekt yechimlari",
+        "desc": "Muloqot, tahlil va takrorlanuvchi vazifalarni AI yordamida tezlashtiramiz."
+      },
+      "web": {
+        "title": "Web Development",
+        "desc": "Kompaniyangiz uchun tez, chiroyli va kengaytiriladigan veb-platformalar."
+      },
+      "mobile": {
+        "title": "Mobil ilovalar ishlab chiqish",
+        "desc": "iOS va Android uchun biznesingizga mos mobil ilovalar."
+      },
+      "telegram": {
+        "title": "Telegram bot yaratish",
+        "desc": "Savdo, buyurtma va mijozlar bilan aloqani avtomatlashtiruvchi botlar."
+      },
+      "erp_crm": {
+        "title": "ERP & CRM",
+        "desc": "Biznesning barcha bo'limlarini yagona boshqaruv muhitiga birlashtiramiz."
+      },
+      "automation": {
+        "title": "Biznes jarayonlarini avtomatlashtirish",
+        "desc": "Takrorlanuvchi vazifalarni avtomatlashtirib, vaqtingizni ozod qilamiz."
+      },
+      "systemization": {
+        "title": "Biznesni tizimlashtirish",
+        "desc": "Jarayonlarni noldan tartibga solib, nazorat qilinadigan tizimga aylantiramiz."
+      },
+      "integration": {
+        "title": "IT integratsiya va texnik qo'llab-quvvatlash",
+        "desc": "Dasturlar, serverlar va servislarni o'zaro uzluksiz ishlatamiz."
+      }
+    }
+  },
+  "industries": {
+    "eyebrow": "SOHALAR",
+    "title": "Sohalar bo'yicha yechimlar",
+    "subtitle": "Har bir sohaning o'z jarayonlari va og'riqli nuqtalari bor — tizimni aynan sizning faoliyat turingizga moslab quramiz.",
+    "items": {
+      "trade": {
+        "name": "Savdo va distribyutsiya",
+        "tags": [
+          "CRM",
+          "ERP",
+          "ombor nazorati",
+          "AI sotuv agenti"
+        ]
+      },
+      "manufacturing": {
+        "name": "Ishlab chiqarish",
+        "tags": [
+          "ERP",
+          "xomashyo hisobi",
+          "HRM",
+          "hisobotlar"
+        ]
+      },
+      "restaurant": {
+        "name": "Restoran va kafelar",
+        "tags": [
+          "POS",
+          "buyurtma tizimi",
+          "yetkazib berish",
+          "Telegram bot"
+        ]
+      },
+      "pharmacy": {
+        "name": "Dorixonalar",
+        "tags": [
+          "ERP",
+          "ombor",
+          "filiallar nazorati",
+          "AI agent"
+        ]
+      },
+      "education": {
+        "name": "Ta'lim markazlari",
+        "tags": [
+          "CRM",
+          "LMS",
+          "o'quvchi kabineti",
+          "to'lov tizimi"
+        ]
+      },
+      "clinics": {
+        "name": "Klinikalar",
+        "tags": [
+          "Qabulga yozilish",
+          "CRM",
+          "AI yordamchi"
+        ]
+      },
+      "logistics": {
+        "name": "Logistika",
+        "tags": [
+          "ERP",
+          "yuk kuzatuvi",
+          "marshrut",
+          "CRM"
+        ]
+      },
+      "construction": {
+        "name": "Qurilish",
+        "tags": [
+          "Loyiha boshqaruvi",
+          "xarajatlar",
+          "ombor nazorati"
+        ]
+      },
+      "ecommerce": {
+        "name": "Internet-do'konlar",
+        "tags": [
+          "E-commerce",
+          "CRM",
+          "to'lov",
+          "yetkazib berish"
+        ]
+      },
+      "services": {
+        "name": "Xizmat ko'rsatish",
+        "tags": [
+          "CRM",
+          "bron qilish",
+          "AI Customer Support"
+        ]
+      }
+    }
+  },
+  "process": {
+    "eyebrow": "JARAYON",
+    "title": "Qanday ishlaymiz",
+    "subtitle": "Birinchi diagnostikadan tizimni ishga tushirish va doimiy qo'llab-quvvatlashgacha bo'lgan 5 aniq bosqich.",
+    "steps": [
+      {
+        "title": "Bepul diagnostika",
+        "desc": "Biznesingiz haqida qisqa so'rovnoma orqali ehtiyojingizni aniqlaymiz."
+      },
+      {
+        "title": "Yechim taklifi",
+        "desc": "Sizga mos 1–3 ta aniq yechimni taqdim etamiz."
+      },
+      {
+        "title": "Texnik muhokama",
+        "desc": "Loyiha tarkibi, muddat va narx aniq kelishiladi."
+      },
+      {
+        "title": "Ishlab chiqish",
+        "desc": "Jamoamiz yechimni bosqichma-bosqich quradi, sizni har bosqichda xabardor qilamiz."
+      },
+      {
+        "title": "Joriy etish va qo'llab-quvvatlash",
+        "desc": "Tizimni ishga tushiramiz, xodimlaringizni o'qitamiz va doimiy texnik yordam ko'rsatamiz."
+      }
+    ],
+    "deliverables": [
+      "Diagnostika",
+      "1–3 taklif",
+      "Reja & arxitektura",
+      "Bosqichma-bosqich",
+      "Ishga tushirish"
+    ]
+  },
+  "command": {
+    "buttonLabel": "Tezkor navigatsiya",
+    "placeholder": "Bo'lim, xizmat, soha yoki aloqani qidiring...",
+    "empty": "Mos natija topilmadi.",
+    "escHint": "ESC yopish",
+    "navHint": "↑↓ tanlash · Enter ochish",
+    "groupSections": "Bo'limlar",
+    "groupServices": "Xizmatlar",
+    "groupContact": "Tezkor aloqa",
+    "groupPreferences": "Til va tema"
+  },
+  "standards": {
+    "eyebrow": "ARXITEKTURA TAMOYILLARI",
+    "title": "Har bir tizim ortidagi muhandislik standarti",
+    "subtitle": "Biz shunchaki alohida dastur emas, balki kengayishga tayyor, xavfsiz va boshqariladigan raqamli poydevor quramiz.",
+    "items": [
+      {
+        "tag": "MODULAR · API",
+        "title": "Kengaytiriladigan modulli arxitektura",
+        "desc": "START paketidagi bitta yechimdan boshlab, keyin biznes o'sishiga qarab ERP, CRM va AI modullarini uzluksiz qo'shish mumkin."
+      },
+      {
+        "tag": "SECURITY · ENV",
+        "title": "Server darajasidagi xavfsizlik",
+        "desc": "Barcha API kalitlar, rollar va ma'lumotlar oqimi himoyalangan server qatlamida boshqariladi — mijoz brauzeriga maxfiy tokenlar chiqmaydi."
+      },
+      {
+        "tag": "1C · PAY · BOT",
+        "title": "Mavjud tizimlar bilan uzviy integratsiya",
+        "desc": "Ishlatib turgan 1C, to'lov servislari, ombor va Telegram kanallaringizni bitta uzluksiz boshqaruv zanjiriga bog'laymiz."
+      },
+      {
+        "tag": "SOP · HANDOVER",
+        "title": "O'qitish, hujjat va doimiy yordam",
+        "desc": "Tizim ishga tushgach, xodimlaringiz foydalanishga o'rgatiladi, reglamentlar beriladi va jamoamiz texnik qo'llab-quvvatlashda qoladi."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "SAVOL-JAVOB",
+    "title": "Ko'p beriladigan savollar",
+    "subtitle": "Loyihani boshlash, integratsiya va hamkorlik tartibi bo'yicha asosiy savollarga qisqa javoblar.",
+    "items": [
+      {
+        "q": "Loyiha narxi va bajarish muddati qanday aniqlanadi?",
+        "a": "Bepul diagnostika va texnik muhokamadan so'ng biznesingiz jarayonlari va tanlangan yechim hajmiga qarab loyiha tarkibi, aniq muddat va tijoriy taklif kelishiladi."
+      },
+      {
+        "q": "Bizda allaqachon 1C, Excel yoki Telegram bot bor — hammasini boshidan boshlash kerakmi?",
+        "a": "Yo'q. Mavjud ishlab turgan dasturlaringiz, 1C, ombor va to'lov servislaringiz API orqali yangi yagona tizimga integratsiya qilinadi."
+      },
+      {
+        "q": "Kichik bitta yechimdan boshlab, keyin tizimni kengaytirsa bo'ladimi?",
+        "a": "Ha. Masalan START formatida Telegram bot yoki boshlang'ich CRM bilan boshlab, keyinchalik BUSINESS va AI BUSINESS darajasiga bosqichma-bosqich o'tish mumkin."
+      },
+      {
+        "q": "AI agentlar biznesimizning o'z qoidalari va ma'lumotlariga moslanadimi?",
+        "a": "Ha, AI yechimlar sizning mahsulot bazangiz, mijozlar bilan muloqot skriptlari, ichki hujjatlar va CRM jarayonlaringizga moslab sozlanadi."
+      },
+      {
+        "q": "Tizim ishga tushgandan keyin jamoamizni o'qitish va qo'llab-quvvatlash bormi?",
+        "a": "Ha, 5-bosqich doirasida xodimlaringizni tizimda ishlashga o'qitamiz va doimiy texnik qo'llab-quvvatlash hamda rivojlantirish xizmatini taqdim etamiz."
+      }
+    ]
+  },
+  "packages": {
+    "eyebrow": "PAKETLAR",
+    "title": "Hamkorlik paketlari",
+    "subtitle": "Bitta aniq yechimdan to'liq raqamli transformatsiyagacha — biznesingiz bosqichiga mos formatni tanlang.",
+    "items": {
+      "start": {
+        "name": "START",
+        "tagline": "Bitta aniq yechim bilan boshlang",
+        "content": "Sayt, Telegram bot yoki boshlang'ich CRM kabi alohida yechim",
+        "bullets": [
+          "Veb-sayt yoki landing",
+          "Telegram bot",
+          "Boshlang'ich CRM"
+        ],
+        "model": "Bir martalik loyiha",
+        "cta": "Boshlash"
+      },
+      "business": {
+        "name": "BUSINESS",
+        "tagline": "Jarayonlaringizni bir tizimga birlashtiring",
+        "content": "ERP/CRM, avtomatlashtirish va integratsiyalar",
+        "bullets": [
+          "ERP / CRM tizimi",
+          "Jarayonlarni avtomatlashtirish",
+          "Servislar integratsiyasi"
+        ],
+        "model": "Loyiha + texnik xizmat",
+        "cta": "Batafsil ma'lumot"
+      },
+      "ai_business": {
+        "name": "AI BUSINESS",
+        "badge": "Tavsiya etiladi",
+        "tagline": "Sun'iy intellektni biznesingizga joriy qiling",
+        "content": "AI Agent, AI integratsiya va avtomatlashtirish",
+        "bullets": [
+          "AI Agent",
+          "AI integratsiya",
+          "Avtomatlashtirish"
+        ],
+        "model": "Joriy etish + abonent xizmat",
+        "cta": "Batafsil ma'lumot"
+      },
+      "enterprise": {
+        "name": "ENTERPRISE",
+        "tagline": "To'liq raqamli transformatsiya",
+        "content": "Bir nechta bo'lim va tizimlarni qamrab oluvchi yechim",
+        "bullets": [
+          "Bir nechta bo'limlar qamrovi",
+          "Tizimlarni o'zaro ulash",
+          "Individual arxitektura"
+        ],
+        "model": "Individual shartnoma",
+        "cta": "Biz bilan bog'laning"
+      }
+    }
+  },
+  "diagnostic": {
+    "eyebrow": "DIAGNOSTIKA",
+    "title": "60 soniyada — sizga mos yechimni aniqlaymiz",
+    "subtitle": "4 ta savolga javob bering, biz bilan bog'lanishdan oldin ehtiyojingizni tushunib olamiz.",
+    "q1": {
+      "label": "Soha",
+      "title": "Biznesingiz qaysi sohada faoliyat yuritadi?",
+      "options": [
+        "Savdo",
+        "Ishlab chiqarish",
+        "Xizmat ko'rsatish",
+        "Boshqa"
+      ]
+    },
+    "q2": {
+      "label": "Asosiy muammo",
+      "title": "Hozirgi eng katta og'riqli nuqtangiz nima?",
+      "options": [
+        "Jarayonlar tartibsiz",
+        "Ma'lumotlar tarqoq",
+        "Xodimlar nazorati yo'q",
+        "Mijozlar bilan ishlash sust"
+      ]
+    },
+    "q3": {
+      "label": "Qiziqtirgan yechim",
+      "title": "Qaysi yechim sizni ko'proq qiziqtiradi?",
+      "options": [
+        "Veb-sayt yoki ilova",
+        "CRM/ERP",
+        "AI yechim",
+        "Hali aniq emas"
+      ]
+    },
+    "q4": {
+      "label": "Jamoa hajmi",
+      "title": "Jamoangizda nechta xodim ishlaydi?",
+      "options": [
+        "1–10",
+        "11–50",
+        "51–200",
+        "200+"
+      ]
+    },
+    "q5": {
+      "label": "Aloqa ma'lumoti",
+      "title": "Siz bilan qanday bog'lanaylik?",
+      "subtitle": "Tahlil natijasi va sizga mos 1–3 ta yechim taklifini yuborish uchun kontakt qoldiring.",
+      "nameLabel": "Ismingiz",
+      "namePlaceholder": "Ism va familiyangiz",
+      "phoneLabel": "Telefon raqamingiz",
+      "phonePlaceholder": "+998 90 123 45 67",
+      "telegramLabel": "Telegram username",
+      "telegramPlaceholder": "@username",
+      "companyLabel": "Kompaniya nomi (ixtiyoriy)",
+      "companyPlaceholder": "Kompaniyangiz nomi",
+      "contactHint": "Telefon raqam yoki Telegram username dan kamida bittasini kiriting.",
+      "nameError": "Iltimos, ismingizni kiriting.",
+      "contactError": "Telefon raqamingiz yoki Telegram username ni kiriting."
+    },
+    "selectedContextLabel": "Tanlangan yo'nalish",
+    "clearContext": "Tozalash",
+    "editStepHint": "O'zgartirish uchun bosing",
+    "navBack": "Orqaga",
+    "navNext": "Keyingisi",
+    "navSubmit": "Yuborish",
+    "success": "Rahmat! Jamoamiz 24 soat ichida siz bilan bog'lanadi.",
+    "errorValidation": "Iltimos, barcha savollarga javob bering.",
+    "errorContact": "Iltimos, ismingizni hamda telefon raqamingiz yoki Telegram username ni kiriting.",
+    "errorNetwork": "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring yoki to'g'ridan-to'g'ri Telegram orqali bog'laning.",
+    "errorRateLimit": "Juda ko'p so'rov yuborildi. Iltimos, birozdan keyin qayta urinib ko'ring.",
+    "reset": "Yangi diagnostika boshlash",
+    "workflowTitle": "So'rovdan keyin nima bo'ladi?",
+    "workflowSteps": [
+      {
+        "title": "Darhol qabul qilinadi",
+        "desc": "Diagnostika javoblaringiz va kontakt ma'lumotlaringiz jamoamizga bir zumda yetkaziladi."
+      },
+      {
+        "title": "24 soat ichida aloqa",
+        "desc": "Mutaxassisimiz siz ko'rsatgan telefon raqam yoki Telegram orqali bog'lanadi."
+      },
+      {
+        "title": "Aniq yechim taklifi",
+        "desc": "Biznesingiz holatiga mos 1–3 ta texnik yechim va keyingi qadamlarni muhokama qilamiz."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Birinchi qadamni birga qo'yamiz",
+    "subtitle": "Siz — bizning birinchi hamkorimiz, shuning uchun loyihangizga maksimal e'tibor va shaxsiy yondashuv bilan yondashamiz.",
+    "cta": "Diagnostikadan boshlash"
+  },
+  "contactPage": {
+    "eyebrow": "ALOQA",
+    "title": "Aloqa va Diagnostika",
+    "subtitle": "Qisqa so'rovnomani to'ldiring — jamoamiz biznesingizga mos yechimlarni tayyorlab aloqaga chiqadi.",
+    "infoTitle": "Aloqa kanallari",
+    "infoNote": "To'g'ridan-to'g'ri murojaat uchun quyidagi kanallardan birini tanlang yoki diagnostika so'rovnomasini yuboring.",
+    "channels": {
+      "phone": "Telefon",
+      "telegram": "Telegram",
+      "email": "Email",
+      "instagram": "Instagram",
+      "github": "GitHub"
+    }
+  },
+  "footer": {
+    "logo": "DT&AI",
+    "tagline": "Biznesingizni raqamlashtiramiz, avtomatlashtiramiz va boshqaruvni yagona tizimga birlashtiramiz.",
+    "navTitle": "Navigatsiya",
+    "langTitle": "Til va aloqa",
+    "contactPlaceholder": "Bevosita aloqa kanallari:",
+    "copyright": "© 2026 Digital Transformation & AI Solutions. Barcha huquqlar himoyalangan."
+  },
+  "servicePage": {
+    "breadcrumbServices": "Xizmatlar",
+    "featuresTitle": "Nimalarni o'z ichiga oladi",
+    "industriesTitle": "Kimlar uchun mos",
+    "industriesNote": "Yechim sizning faoliyat turingiz va mavjud dasturlaringizga moslashtiriladi.",
+    "ctaTitle": "Bu yechim sizga kerakmi?",
+    "ctaText": "60 soniyalik diagnostika orqali ehtiyojingizni aniqlaymiz va sizga mos 1–3 ta yechim taklif qilamiz.",
+    "ctaButton": "Diagnostikadan boshlash",
+    "relatedTitle": "Shuningdek qarang",
+    "backToAll": "Barcha xizmatlar"
+  },
+  "servicePages": {
+    "ai": {
+      "meta": {
+        "title": "AI va sun'iy intellekt yechimlari | DT&AI",
+        "description": "AI agent, AI sotuv menejeri, AI call center va boshqa yechimlar: muloqot, tahlil va takrorlanuvchi vazifalarni avtomatlashtiring."
+      },
+      "lead": "Sun'iy intellekt biznesingizdagi muloqot, tahlil va takrorlanuvchi vazifalarni o'z zimmasiga oladi: mijozlarga tezkor javob beradi, ma'lumotlarni tartibga soladi va xodimlaringiz vaqtini muhim ishlarga bo'shatadi. Yechim sizning jarayonlaringiz va mavjud dasturlaringizga moslab ishlab chiqiladi.",
+      "features": [
+        {
+          "title": "AI Agent",
+          "desc": "Mijozlar yoki xodimlar bilan muloqot qiladigan, belgilangan vazifalarni bajaradigan virtual agent."
+        },
+        {
+          "title": "AI Sales Manager",
+          "desc": "Murojaatlarni qabul qiladi, mijoz savollariga javob beradi va sotuv jarayonini qo'llab-quvvatlaydi."
+        },
+        {
+          "title": "AI Customer Support",
+          "desc": "Mijozlarga tezkor yordam va tez-tez beriladigan savollarga javob."
+        },
+        {
+          "title": "AI Call Center",
+          "desc": "Ovozli qo'ng'iroqlarni qabul qilish va yo'naltirish uchun AI yechimlari."
+        },
+        {
+          "title": "AI HR Assistant",
+          "desc": "Nomzodlar ma'lumotlarini saralaydi va HR jarayonlariga ko'maklashadi."
+        },
+        {
+          "title": "AI Business Analyst",
+          "desc": "Biznes ma'lumotlarini tahlil qiladi va rahbariyat uchun xulosalar tayyorlaydi."
+        },
+        {
+          "title": "AI Voice Assistant",
+          "desc": "Ovoz orqali berilgan buyruq va so'rovlarni qayta ishlaydi."
+        },
+        {
+          "title": "AI Document Processing",
+          "desc": "Hujjatlardan ma'lumot ajratadi, tasniflaydi va qayta ishlaydi."
+        },
+        {
+          "title": "AI Integration",
+          "desc": "AI funksiyalarini mavjud dastur va ish jarayonlariga ulaydi."
+        }
+      ]
+    },
+    "web": {
+      "meta": {
+        "title": "Veb-sayt va veb-platformalar ishlab chiqish | DT&AI",
+        "description": "Korporativ saytlar, internet-do'konlar, SaaS platformalar va shaxsiy kabinetlar. Biznesingizga moslab ishlab chiqamiz."
+      },
+      "lead": "Kompaniyangiz, xizmatingiz yoki mahsulotingiz uchun internet orqali ishlaydigan sayt va platformalar ishlab chiqamiz — qulay, tartibli va biznesingiz bilan birga kengaytirish mumkin bo'lgan.",
+      "features": [
+        {
+          "title": "Korporativ veb-saytlar va Landing sahifalar",
+          "desc": "Kompaniyani taqdim etuvchi saytlar va bitta aniq maqsadga yo'naltirilgan sahifalar."
+        },
+        {
+          "title": "Internet-do'konlar va marketplace",
+          "desc": "Onlayn savdo uchun do'konlar va ko'p sotuvchili platformalar."
+        },
+        {
+          "title": "SaaS platformalar",
+          "desc": "Obuna asosida ishlaydigan servislar va platformalar."
+        },
+        {
+          "title": "Shaxsiy kabinetlar, portallar va Dashboard",
+          "desc": "Mijozlar va xodimlar uchun shaxsiy kabinet, portal va boshqaruv panellari."
+        },
+        {
+          "title": "Buyurtma, bron qilish va yozilish tizimlari",
+          "desc": "Buyurtma berish, joy bron qilish va xizmatga yozilish uchun onlayn tizimlar."
+        },
+        {
+          "title": "Maxsus web-platformalar",
+          "desc": "Mijoz ehtiyojiga mos individual ishlab chiqiladigan platformalar."
+        }
+      ]
+    },
+    "mobile": {
+      "meta": {
+        "title": "Mobil ilovalar ishlab chiqish (Android va iOS) | DT&AI",
+        "description": "Buyurtma, yetkazib berish, ta'lim, fintech va korporativ mobil ilovalar — Android va iOS uchun."
+      },
+      "lead": "Android va iOS qurilmalari uchun biznesingiz vazifalariga mos mobil ilovalar yaratamiz — buyurtma qabul qilishdan tortib to'lov va maxsus korporativ yechimlargacha.",
+      "features": [
+        {
+          "title": "Android va iOS ilovalar",
+          "desc": "Ikkala platforma uchun mobil ilovalar."
+        },
+        {
+          "title": "Internet-do'kon va buyurtma ilovalari",
+          "desc": "Mahsulot sotish va buyurtma qabul qilish uchun ilovalar."
+        },
+        {
+          "title": "Yetkazib berish, taxi va transport ilovalari",
+          "desc": "Yetkazib berish, taxi va transport xizmatlari uchun ilovalar."
+        },
+        {
+          "title": "Ta'lim platformalari va o'quv ilovalari",
+          "desc": "Onlayn o'qitish va o'quv jarayonlari uchun ilovalar."
+        },
+        {
+          "title": "Fintech va to'lov ilovalari",
+          "desc": "To'lov va moliyaviy xizmatlar bilan bog'liq ilovalar."
+        },
+        {
+          "title": "Korporativ va maxsus ilovalar",
+          "desc": "Kompaniyaning ichki ehtiyojlari va maxsus biznes vazifalari uchun ilovalar."
+        }
+      ]
+    },
+    "telegram": {
+      "meta": {
+        "title": "Telegram bot yaratish | DT&AI",
+        "description": "Savdo, buyurtma va to'lov uchun Telegram botlar, CRM bilan integratsiya, shu jumladan AI botlar."
+      },
+      "lead": "Telegram — mijozlaringiz allaqachon bo'lgan joy. Savdo, buyurtma, to'lov va aloqa jarayonlarini Telegram bot orqali avtomatlashtiramiz, kerak bo'lsa AI va CRM bilan ulaymiz.",
+      "features": [
+        {
+          "title": "AI bilan ishlaydigan botlar",
+          "desc": "Savollarga tabiiy tilda javob beradigan sun'iy intellektli Telegram botlar."
+        },
+        {
+          "title": "Savdo, buyurtma va do'kon botlari",
+          "desc": "Mahsulot ko'rsatish, buyurtma qabul qilish va savdo qilish uchun botlar."
+        },
+        {
+          "title": "To'lov va hisob-kitob botlari",
+          "desc": "To'lovlarni qabul qilish va hisob-kitoblarni yuritish uchun botlar."
+        },
+        {
+          "title": "CRM bilan integratsiyalangan botlar",
+          "desc": "Murojaatlar va mijoz ma'lumotlari to'g'ridan-to'g'ri CRM tizimiga tushadi."
+        },
+        {
+          "title": "Ro'yxatdan o'tkazish, test va ta'lim botlari",
+          "desc": "Ro'yxatga olish, test o'tkazish va o'qitish uchun botlar."
+        },
+        {
+          "title": "Xabarnoma, monitoring va korporativ botlar",
+          "desc": "Xabar yuborish, holatni kuzatish va ichki korporativ vazifalar uchun botlar."
+        }
+      ]
+    },
+    "erp_crm": {
+      "meta": {
+        "title": "ERP va CRM tizimlari | DT&AI",
+        "description": "Savdo, ombor, moliya, HRM va filiallarni yagona boshqaruv tizimiga birlashtiruvchi ERP va CRM yechimlari."
+      },
+      "lead": "Biznesingizning turli bo'limlarini yagona ma'lumotlar va boshqaruv muhitiga birlashtiramiz: mijozlar, savdo, ombor, moliya va xodimlar bir tizimda ko'rinadi, rahbar esa umumiy holatni bitta panelda kuzatadi.",
+      "features": [
+        {
+          "title": "ERP",
+          "desc": "Resurslar, operatsiyalar va ichki jarayonlarni boshqarish."
+        },
+        {
+          "title": "CRM",
+          "desc": "Mijozlar, murojaatlar, sotuvlar va munosabatlarni boshqarish."
+        },
+        {
+          "title": "Savdo, buyurtma va mijozlar bazasi",
+          "desc": "Savdo, buyurtmalar va mijozlar bazasini yagona joyda yuritish."
+        },
+        {
+          "title": "Ombor va inventar hisobi",
+          "desc": "Mahsulot qoldig'i va inventar hisobini yuritish."
+        },
+        {
+          "title": "Moliya va buxgalteriya integratsiyasi",
+          "desc": "Moliya va buxgalteriya tizimlari bilan ulanish."
+        },
+        {
+          "title": "HRM",
+          "desc": "Xodimlar, ish vaqti va ish haqi jarayonlarini boshqarish."
+        },
+        {
+          "title": "Logistika, xarid va ta'minot",
+          "desc": "Logistika, xarid va ta'minotni boshqarish."
+        },
+        {
+          "title": "Filiallar va savdo nuqtalari",
+          "desc": "Bir nechta filial va savdo nuqtalarini yagona tizimdan boshqarish."
+        },
+        {
+          "title": "Rahbar uchun yagona Dashboard",
+          "desc": "Rahbar uchun yagona analitik panel."
+        }
+      ]
+    },
+    "automation": {
+      "meta": {
+        "title": "Biznes jarayonlarini avtomatlashtirish | DT&AI",
+        "description": "Hisobotlar, buyurtmalar, bildirishnomalar va takrorlanuvchi vazifalarni avtomatlashtirish."
+      },
+      "lead": "Takrorlanuvchi, qo'lda bajariladigan ishlarni dasturga topshiramiz: hisobotlar o'zi shakllanadi, buyurtmalar kuzatiladi, bildirishnomalar o'z vaqtida yuboriladi. Xodimlaringiz esa e'tiborini muhim vazifalarga qaratadi.",
+      "features": [
+        {
+          "title": "Takrorlanuvchi vazifalarni avtomatlashtirish",
+          "desc": "Har kuni qo'lda bajariladigan ishlarni avtomatik rejimga o'tkazish."
+        },
+        {
+          "title": "Savdo va mijozlar bilan ishlash jarayonlari",
+          "desc": "Savdo va mijozlar bilan aloqa bosqichlarini avtomatlashtirish."
+        },
+        {
+          "title": "Hisobotlarni avtomatik shakllantirish",
+          "desc": "Hisobotlar o'zi tayyorlanadi va kerakli kishilarga yuboriladi."
+        },
+        {
+          "title": "Xodimlar faoliyatini monitoring qilish",
+          "desc": "Xodimlar faoliyati holatini kuzatish va nazorat qilish."
+        },
+        {
+          "title": "Buyurtmalarni qayta ishlash va kuzatish",
+          "desc": "Buyurtmalarni qayta ishlash va holatini kuzatish."
+        },
+        {
+          "title": "Tashqi servislar, API va to'lov tizimlari",
+          "desc": "Tashqi servislar, API va to'lov tizimlari bilan integratsiya."
+        },
+        {
+          "title": "Bildirishnoma, eslatma va tasdiqlash",
+          "desc": "Bildirishnomalar, eslatmalar va tasdiqlash jarayonlari."
+        }
+      ]
+    },
+    "systemization": {
+      "meta": {
+        "title": "Biznesni tizimlashtirish: audit, SOP, KPI | DT&AI",
+        "description": "Biznes diagnostikasi, reglamentlar, SOP va KPI tizimini yaratish hamda raqamli boshqaruvga o'tkazish."
+      },
+      "lead": "Ba'zan muammo dasturda emas — jarayonlarning o'zida. Biznesingizni noldan tahlil qilamiz, vazifalar va mas'uliyatlarni belgilaymiz, reglament va KPI tizimini yaratamiz, so'ngra uni raqamli boshqaruvga o'tkazamiz.",
+      "features": [
+        {
+          "title": "Biznes diagnostikasi va audit",
+          "desc": "Mavjud jarayonlarni o'rganish va audit qilish."
+        },
+        {
+          "title": "Biznes model va tashkiliy struktura",
+          "desc": "Biznes modeli va tashkiliy tuzilmani shakllantirish."
+        },
+        {
+          "title": "Jarayonlar, vazifalar va mas'uliyatlar",
+          "desc": "Ish jarayonlari, vazifalar va mas'uliyatlarni aniq belgilash."
+        },
+        {
+          "title": "Ichki reglamentlar va SOP hujjatlari",
+          "desc": "Ichki reglamentlar va standart ish yo'riqnomalarini (SOP) ishlab chiqish."
+        },
+        {
+          "title": "KPI va samaradorlikni baholash tizimi",
+          "desc": "KPI va xodimlar samaradorligini baholash tizimini yaratish."
+        },
+        {
+          "title": "Sotuv bo'limi va mijozlar bilan ishlash tizimi",
+          "desc": "Sotuv bo'limi va mijozlar bilan ishlash tizimini yo'lga qo'yish."
+        },
+        {
+          "title": "Moliyaviy nazorat va boshqaruv hisobotlari",
+          "desc": "Moliyaviy nazorat va boshqaruv hisobotlarini tashkil etish."
+        },
+        {
+          "title": "Raqamli boshqaruvga o'tish",
+          "desc": "Biznesni raqamli boshqaruv tizimiga o'tkazish."
+        }
+      ]
+    },
+    "integration": {
+      "meta": {
+        "title": "IT integratsiya va texnik qo'llab-quvvatlash | DT&AI",
+        "description": "API, to'lov tizimlari, 1C integratsiyasi, server va cloud sozlash, kiberxavfsizlik va texnik yordam."
+      },
+      "lead": "Alohida yaxshi ishlaydigan dasturlar ham bir-biri bilan ma'lumot almashmasa, qo'shimcha qo'l mehnatini keltirib chiqaradi. Biz dasturlar, to'lov tizimlari, 1C va serverlarni o'zaro ulaymiz va ularni texnik jihatdan qo'llab-quvvatlaymiz.",
+      "features": [
+        {
+          "title": "Dasturlarni o'zaro integratsiya qilish",
+          "desc": "Turli dasturlarni bir-biri bilan ma'lumot almashadigan qilib ulash."
+        },
+        {
+          "title": "API ishlab chiqish va ulash",
+          "desc": "API ishlab chiqish va mavjud API xizmatlarini ulash."
+        },
+        {
+          "title": "To'lov tizimlari va hisob-kitob servislari",
+          "desc": "To'lov tizimlari va hisob-kitob servislarini integratsiya qilish."
+        },
+        {
+          "title": "1C va boshqa hisob tizimlari",
+          "desc": "1C va boshqa hisob tizimlari bilan integratsiya."
+        },
+        {
+          "title": "Server, ma'lumotlar bazasi va cloud",
+          "desc": "Server, ma'lumotlar bazasi va cloud infratuzilmani sozlash."
+        },
+        {
+          "title": "Kiberxavfsizlik",
+          "desc": "Kiberxavfsizlik bo'yicha texnik yechimlar."
+        },
+        {
+          "title": "Texnik qo'llab-quvvatlash va rivojlantirish",
+          "desc": "Dasturiy mahsulotlarni texnik qo'llab-quvvatlash va rivojlantirish."
+        }
+      ]
+    }
+  }
+}

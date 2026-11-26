@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="dtai-icon-grad" x1="2" y1="2" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#7C5CFC" />
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="#0A0E14" />
+  <rect x="0.75" y="0.75" width="30.5" height="30.5" rx="7.25" stroke="#252B38" stroke-width="1.5" />
+  <path d="M8 9L16 16M8 23L16 16M24 16H16" stroke="#3B82F6" stroke-width="1.75" stroke-linecap="round" opacity="0.65" />
+  <circle cx="8" cy="9" r="2.2" fill="#9CA7B8" />
+  <circle cx="8" cy="23" r="2.2" fill="#9CA7B8" />
+  <circle cx="24" cy="16" r="2.4" fill="#5EEAD4" />
+  <circle cx="16" cy="16" r="3.6" fill="url(#dtai-icon-grad)" />
+</svg>
