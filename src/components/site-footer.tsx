@@ -24,7 +24,7 @@ export function SiteFooter({ locale, dict }: SiteFooterProps) {
 
   return (
     <footer
-      className="relative z-10 border-t pt-16 pb-8 theme-surface-transition"
+      className="relative z-10 border-t pt-16 pb-[max(2rem,env(safe-area-inset-bottom))] theme-surface-transition"
       style={{
         backgroundColor: "var(--color-bg-base)",
         borderColor: "var(--color-border)",

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import "@/app/globals.css";
 import { MotionProvider } from "@/components/motion-provider";
@@ -14,8 +14,28 @@ import {
 
 const FOWT_THEME_SCRIPT = `(function(){try{var s=localStorage.getItem('theme-preference');var t=s||'system';var r=t==='system'?(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):t;document.documentElement.setAttribute('data-theme',r);}catch(e){}})();`;
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: [
+    { media: "(prefers-color-scheme: dark)", color: "#0A0E14" },
+    { media: "(prefers-color-scheme: light)", color: "#F7F8FA" },
+  ],
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(getSiteUrl()),
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "black-translucent",
+    title: "DT&AI",
+  },
+  formatDetection: {
+    telephone: false,
+    email: false,
+    address: false,
+  },
 };
 
 export function generateStaticParams() {

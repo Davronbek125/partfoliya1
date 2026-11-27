@@ -202,7 +202,7 @@ export function SiteHeader({
   return (
     <>
       <header
-        className="fixed inset-x-0 top-0 z-40 h-16 md:h-20 transition-[background-color,border-color,backdrop-filter] duration-300"
+        className="fixed inset-x-0 top-0 z-40 min-h-16 md:min-h-20 pt-[env(safe-area-inset-top)] transition-[background-color,border-color,backdrop-filter] duration-300"
         style={{
           backgroundColor: isScrolled ? "var(--color-header-blur)" : "transparent",
           backdropFilter: isScrolled ? "blur(12px)" : "none",
@@ -211,16 +211,16 @@ export function SiteHeader({
             : "1px solid transparent",
         }}
       >
-        <div className="dtai-container flex h-full items-center justify-between gap-2.5">
+        <div className="dtai-container flex h-16 md:h-20 items-center justify-between gap-2">
           <Link
             href={buildLocalePath(locale)}
             onClick={(e) => handleNavClick(e, navItems[0])}
             aria-label={dict.common.brandFull}
-            className="inline-flex shrink-0 items-center gap-2.5 md:gap-3 transition-opacity duration-200 hover:opacity-85"
+            className="inline-flex min-w-0 shrink-0 items-center gap-2 sm:gap-2.5 md:gap-3 transition-opacity duration-200 hover:opacity-85"
           >
             <BrandMark size={36} className="h-8 w-8 md:h-9 md:w-9 shrink-0" />
             <span
-              className="text-[19px] sm:text-[21px] font-bold tracking-[-0.02em]"
+              className="text-[18px] sm:text-[21px] font-bold tracking-[-0.02em]"
               style={{
                 fontFamily: "var(--font-display)",
                 color: "var(--color-text-primary)",
@@ -229,7 +229,7 @@ export function SiteHeader({
               {dict.common.brandShort}
             </span>
             <span
-              className="hidden sm:flex lg:hidden xl:flex flex-col leading-[1.25] uppercase tracking-[0.07em] text-[9.5px] xl:text-[10px] font-medium"
+              className="flex flex-col leading-[1.2] uppercase tracking-[0.04em] sm:tracking-[0.07em] text-[7.5px] sm:text-[9px] xl:text-[10px] font-medium"
               style={{ color: "var(--color-text-muted)" }}
             >
               <span>DIGITAL TRANSFORMATION &amp; AI</span>
@@ -250,7 +250,7 @@ export function SiteHeader({
                     href={item.href}
                     aria-current={active ? "location" : undefined}
                     onClick={(e) => handleNavClick(e, item)}
-                    className="relative px-2 py-2 text-[13px] xl:text-[14px] font-medium tracking-[0.01em] whitespace-nowrap transition-colors duration-200 hover:text-[var(--color-text-primary)]"
+                    className="relative px-1.5 xl:px-2.5 py-2 text-[12.5px] xl:text-[14px] font-medium tracking-[0.01em] whitespace-nowrap transition-colors duration-200 hover:text-[var(--color-text-primary)]"
                     style={{
                       color: active
                         ? "var(--color-text-primary)"
@@ -321,7 +321,7 @@ export function SiteHeader({
             aria-label={isMenuOpen ? dict.common.menuClose : dict.common.menuOpen}
             aria-expanded={isMenuOpen}
             aria-controls="mobile-nav-drawer"
-            className="flex lg:hidden h-10 w-10 items-center justify-center rounded-xl border transition-colors"
+            className="flex lg:hidden h-11 w-11 shrink-0 items-center justify-center rounded-xl border transition-colors active:scale-95"
             style={{
               backgroundColor: "var(--color-surface)",
               borderColor: "var(--color-border)",
@@ -359,7 +359,7 @@ export function SiteHeader({
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-              className="absolute inset-y-0 right-0 flex w-[84%] max-w-[340px] flex-col justify-between border-l p-6"
+              className="absolute inset-y-0 right-0 flex h-dvh w-[86%] max-w-[340px] flex-col justify-between overflow-y-auto overscroll-contain border-l px-6 pt-[max(1.5rem,env(safe-area-inset-top))] pb-[max(1.5rem,env(safe-area-inset-bottom))]"
               style={{
                 backgroundColor: "var(--color-surface)",
                 borderColor: "var(--color-border)",
@@ -398,7 +398,7 @@ export function SiteHeader({
                       menuTriggerRef.current?.focus();
                     }}
                     aria-label={dict.common.menuClose}
-                    className="flex h-10 w-10 items-center justify-center rounded-xl border"
+                    className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border active:scale-95"
                     style={{
                       borderColor: "var(--color-border)",
                       color: "var(--color-text-primary)",

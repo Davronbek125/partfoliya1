@@ -317,7 +317,7 @@ export function CommandPalette({ locale, dict }: CommandPaletteProps) {
     <AnimatePresence>
       {isOpen && (
         <div
-          className="fixed inset-0 z-50 flex items-start justify-center px-4 pt-[12vh]"
+          className="fixed inset-0 z-50 flex items-start justify-center px-3 pt-[max(1rem,env(safe-area-inset-top))] sm:px-4 sm:pt-[12vh]"
           onKeyDown={handlePaletteKeyDown}
         >
           <motion.div
@@ -359,31 +359,34 @@ export function CommandPalette({ locale, dict }: CommandPaletteProps) {
               />
               <input
                 ref={inputRef}
-                type="text"
+                type="search"
+                enterKeyHint="search"
+                autoCapitalize="none"
+                autoCorrect="off"
                 value={query}
                 onChange={(e) => {
                   setQuery(e.target.value);
                   setSelectedIndex(0);
                 }}
                 placeholder={dict.command.placeholder}
-                className="flex-1 bg-transparent text-[15px] outline-none"
+                className="flex-1 bg-transparent text-[16px] outline-none"
                 style={{ color: "var(--color-text-primary)" }}
               />
               <button
                 type="button"
                 onClick={() => closePalette()}
                 aria-label={dict.common.menuClose}
-                className="flex h-7 w-7 items-center justify-center rounded-lg border transition-colors hover:border-[var(--color-accent-blue)]"
+                className="flex h-9 w-9 sm:h-8 sm:w-8 items-center justify-center rounded-lg border transition-colors hover:border-[var(--color-accent-blue)] active:scale-95"
                 style={{
                   borderColor: "var(--color-border)",
                   color: "var(--color-text-muted)",
                 }}
               >
-                <X size={14} strokeWidth={1.5} />
+                <X size={16} strokeWidth={1.5} />
               </button>
             </div>
 
-            <div className="max-h-[55vh] overflow-y-auto p-2">
+            <div className="max-h-[60dvh] sm:max-h-[55vh] overflow-y-auto overscroll-contain p-2">
               {filtered.length === 0 ? (
                 <p
                   className="py-10 text-center text-[14px]"
@@ -465,7 +468,7 @@ export function CommandPalette({ locale, dict }: CommandPaletteProps) {
             </div>
 
             <div
-              className="flex items-center justify-between border-t px-4 py-2 text-[11px]"
+              className="hidden sm:flex items-center justify-between border-t px-4 py-2 text-[11px]"
               style={{
                 borderColor: "var(--color-border)",
                 backgroundColor: "var(--color-surface-raised)",

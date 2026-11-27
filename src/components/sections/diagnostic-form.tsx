@@ -408,6 +408,7 @@ export function DiagnosticForm({ locale, dict }: DiagnosticFormProps) {
                   id="diag-name"
                   type="text"
                   autoComplete="name"
+                  enterKeyHint="next"
                   maxLength={120}
                   disabled={phase !== "idle"}
                   aria-invalid={nameInvalid}
@@ -419,7 +420,7 @@ export function DiagnosticForm({ locale, dict }: DiagnosticFormProps) {
                   }}
                   onKeyDown={handleStep5KeyDown}
                   placeholder={dict.diagnostic.q5.namePlaceholder}
-                  className="mt-1.5 w-full border-b bg-transparent py-2.5 text-[15px] outline-none transition-colors focus:border-b-2 focus:border-[var(--color-accent-blue)]"
+                  className="mt-1.5 w-full rounded-none border-b bg-transparent py-2.5 text-[16px] outline-none transition-colors focus:border-b-2 focus:border-[var(--color-accent-blue)]"
                   style={{
                     borderColor: nameInvalid
                       ? "var(--color-accent-error)"
@@ -441,13 +442,14 @@ export function DiagnosticForm({ locale, dict }: DiagnosticFormProps) {
                   id="diag-company"
                   type="text"
                   autoComplete="organization"
+                  enterKeyHint="next"
                   maxLength={120}
                   disabled={phase !== "idle"}
                   value={company}
                   onChange={(e) => setCompany(e.target.value)}
                   onKeyDown={handleStep5KeyDown}
                   placeholder={dict.diagnostic.q5.companyPlaceholder}
-                  className="mt-1.5 w-full border-b bg-transparent py-2.5 text-[15px] outline-none transition-colors focus:border-b-2 focus:border-[var(--color-accent-blue)]"
+                  className="mt-1.5 w-full rounded-none border-b bg-transparent py-2.5 text-[16px] outline-none transition-colors focus:border-b-2 focus:border-[var(--color-accent-blue)]"
                   style={{
                     borderColor: "var(--color-border)",
                     color: "var(--color-text-primary)",
@@ -466,7 +468,9 @@ export function DiagnosticForm({ locale, dict }: DiagnosticFormProps) {
                 <input
                   id="diag-phone"
                   type="tel"
+                  inputMode="tel"
                   autoComplete="tel"
+                  enterKeyHint="next"
                   maxLength={40}
                   disabled={phase !== "idle"}
                   aria-invalid={contactInvalid}
@@ -478,7 +482,7 @@ export function DiagnosticForm({ locale, dict }: DiagnosticFormProps) {
                   }}
                   onKeyDown={handleStep5KeyDown}
                   placeholder={dict.diagnostic.q5.phonePlaceholder}
-                  className="mt-1.5 w-full border-b bg-transparent py-2.5 text-[15px] outline-none transition-colors focus:border-b-2 focus:border-[var(--color-accent-blue)]"
+                  className="mt-1.5 w-full rounded-none border-b bg-transparent py-2.5 text-[16px] outline-none transition-colors focus:border-b-2 focus:border-[var(--color-accent-blue)]"
                   style={{
                     borderColor: contactInvalid
                       ? "var(--color-accent-error)"
@@ -499,6 +503,9 @@ export function DiagnosticForm({ locale, dict }: DiagnosticFormProps) {
                 <input
                   id="diag-telegram"
                   type="text"
+                  autoCapitalize="none"
+                  autoCorrect="off"
+                  enterKeyHint="send"
                   maxLength={64}
                   disabled={phase !== "idle"}
                   aria-invalid={contactInvalid}
@@ -510,7 +517,7 @@ export function DiagnosticForm({ locale, dict }: DiagnosticFormProps) {
                   }}
                   onKeyDown={handleStep5KeyDown}
                   placeholder={dict.diagnostic.q5.telegramPlaceholder}
-                  className="mt-1.5 w-full border-b bg-transparent py-2.5 text-[15px] outline-none transition-colors focus:border-b-2 focus:border-[var(--color-accent-blue)]"
+                  className="mt-1.5 w-full rounded-none border-b bg-transparent py-2.5 text-[16px] outline-none transition-colors focus:border-b-2 focus:border-[var(--color-accent-blue)]"
                   style={{
                     borderColor: contactInvalid
                       ? "var(--color-accent-error)"

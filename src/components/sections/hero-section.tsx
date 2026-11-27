@@ -72,7 +72,7 @@ export function HeroSection({ locale, dict }: HeroSectionProps) {
   return (
     <section
       id="hero"
-      className="relative overflow-hidden pt-[140px] pb-20 md:pt-[180px] md:pb-28"
+      className="relative overflow-hidden pt-[112px] pb-16 md:pt-[180px] md:pb-28"
     >
       {/* Top atmospheric spotlight glow (Linear / Vercel style) */}
       <div
@@ -223,16 +223,16 @@ export function HeroSection({ locale, dict }: HeroSectionProps) {
         <button
           type="button"
           onClick={openCommandPalette}
-          className="mt-6 inline-flex items-center gap-2 rounded-full border px-3.5 py-1.5 text-[12px] transition-colors hover:border-[var(--color-accent-blue)] hover:text-[var(--color-text-primary)]"
+          className="mt-6 inline-flex min-h-[40px] items-center gap-2 rounded-full border px-4 py-2 text-[13px] transition-colors hover:border-[var(--color-accent-blue)] hover:text-[var(--color-text-primary)] active:scale-[0.98]"
           style={{
             backgroundColor: "var(--color-surface)",
             borderColor: "var(--color-border)",
             color: "var(--color-text-muted)",
           }}
         >
-          <Command size={13} strokeWidth={1.5} />
-          <span className="dtai-mono-tag">Ctrl+K</span>
-          <span>·</span>
+          <Command size={14} strokeWidth={1.5} />
+          <span className="dtai-mono-tag hidden sm:inline">Ctrl+K</span>
+          <span className="hidden sm:inline">·</span>
           <span>{dict.command.buttonLabel}</span>
         </button>
       </div>

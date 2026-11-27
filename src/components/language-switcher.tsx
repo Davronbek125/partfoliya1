@@ -51,7 +51,7 @@ export function LanguageSwitcher({
             href={targetHref}
             onClick={() => handlePersist(loc)}
             aria-current={isActive ? "true" : undefined}
-            className="relative py-1 text-[13px] font-semibold uppercase tracking-[0.04em] transition-colors duration-200"
+            className="relative inline-flex min-h-[36px] items-center px-1.5 py-1.5 text-[13px] font-semibold uppercase tracking-[0.04em] transition-colors duration-200"
             style={{
               color: isActive
                 ? "var(--color-text-primary)"

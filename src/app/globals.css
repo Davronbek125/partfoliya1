@@ -148,6 +148,8 @@
     background-color: var(--color-bg-base);
     color: var(--color-text-primary);
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
 
   body {
@@ -157,6 +159,8 @@
     font-size: 16px;
     line-height: 1.6;
     overflow-x: clip;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     transition: background-color 300ms ease-out, color 300ms ease-out;
   }
 
@@ -168,6 +172,16 @@
 
   * {
     border-color: var(--color-border);
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  button,
+  [role="button"],
+  a[href],
+  input,
+  select,
+  textarea {
+    touch-action: manipulation;
   }
 
   button:not(:disabled),
@@ -329,11 +343,17 @@
     box-shadow 250ms ease-out;
 }
 
-.dtai-card:hover {
-  transform: translateY(-4px);
-  background-color: var(--color-surface-raised);
-  border-color: var(--color-border-strong);
-  box-shadow: var(--shadow-surface-bevel), var(--shadow-card-hover);
+@media (hover: hover) and (pointer: fine) {
+  .dtai-card:hover {
+    transform: translateY(-4px);
+    background-color: var(--color-surface-raised);
+    border-color: var(--color-border-strong);
+    box-shadow: var(--shadow-surface-bevel), var(--shadow-card-hover);
+  }
+}
+
+.dtai-card:active {
+  transform: scale(0.99);
 }
 
 @keyframes dtai-glow-pulse {
@@ -369,14 +389,16 @@
   }
 }
 
-.dtai-btn-primary:hover {
-  animation: none;
-  transform: scale(1.02);
-  box-shadow: var(--shadow-glow-pulse-peak);
+@media (hover: hover) and (pointer: fine) {
+  .dtai-btn-primary:hover {
+    animation: none;
+    transform: scale(1.02);
+    box-shadow: var(--shadow-glow-pulse-peak);
+  }
 }
 
 .dtai-btn-primary:active {
-  transform: scale(0.99);
+  transform: scale(0.98);
 }
 
 .dtai-btn-secondary {

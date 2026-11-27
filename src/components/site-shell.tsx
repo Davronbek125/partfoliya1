@@ -19,7 +19,7 @@ export function SiteShell({ locale, dict, children }: SiteShellProps) {
   const prefersReducedMotion = useReducedMotion();
 
   return (
-    <div className="relative flex min-h-screen flex-col">
+    <div className="relative flex min-h-dvh flex-col">
       <a href="#main-content" className="dtai-skip-link">
         {dict.common.skipToContent}
       </a>
