@@ -169,7 +169,11 @@ describe("DT&AI Corporate Site Verification Suite", () => {
       for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
         const full = path.join(dir, entry.name);
         if (entry.isDirectory()) out.push(...walkTsx(full));
-        else if (/\.(ts|tsx)$/.test(entry.name) && !full.includes(`${path.sep}api${path.sep}`)) {
+        else if (
+          /\.(ts|tsx)$/.test(entry.name) &&
+          !full.includes(`${path.sep}api${path.sep}`) &&
+          !full.includes(`${path.sep}lib${path.sep}server${path.sep}`)
+        ) {
           out.push(full);
         }
       }
@@ -181,7 +185,12 @@ describe("DT&AI Corporate Site Verification Suite", () => {
       assert.equal(
         content.includes("TELEGRAM_BOT_TOKEN") || content.includes("TELEGRAM_CHAT_ID"),
         false,
-        `Non-API file must never reference Telegram secrets: ${file}`
+        `Non-server file must never reference Telegram secrets: ${file}`
+      );
+      assert.equal(
+        content.includes("@/lib/server"),
+        false,
+        `Client/UI file must never import server-only modules: ${file}`
       );
       assert.equal(
         /<img\b/i.test(content),
