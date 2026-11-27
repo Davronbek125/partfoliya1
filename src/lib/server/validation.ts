@@ -111,10 +111,11 @@ export function validateDiagnosticPayload(
     return { ok: false, error: "Missing contact info", status: 400 };
   }
 
-  const hasValidPhone = Boolean(contactPhone && contactPhone.length >= 3);
-  const hasValidTelegram = Boolean(contactTelegram && contactTelegram.length >= 3);
-  if (!hasValidPhone && !hasValidTelegram) {
-    return { ok: false, error: "Missing contact info", status: 400 };
+  const hasValidPhone = Boolean(
+    contactPhone && contactPhone.replace(/\D/g, "").length >= 7
+  );
+  if (!hasValidPhone) {
+    return { ok: false, error: "Missing valid phone number", status: 400 };
   }
 
   return {

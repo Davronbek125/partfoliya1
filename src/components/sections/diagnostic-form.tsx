@@ -118,9 +118,10 @@ export function DiagnosticForm({ locale, dict }: DiagnosticFormProps) {
     const trimmedName = contactName.trim();
     const trimmedPhone = contactPhone.trim();
     const trimmedTelegram = contactTelegram.trim();
+    const phoneDigitsCount = trimmedPhone.replace(/\D/g, "").length;
 
     const missingName = trimmedName.length < 2;
-    const missingContact = trimmedPhone.length < 3 && trimmedTelegram.length < 2;
+    const missingContact = phoneDigitsCount < 7;
 
     if (missingName || missingContact) {
       setNameInvalid(missingName);
@@ -463,7 +464,7 @@ export function DiagnosticForm({ locale, dict }: DiagnosticFormProps) {
                   className="block text-[12px] font-semibold uppercase tracking-[0.04em]"
                   style={{ color: "var(--color-text-muted)" }}
                 >
-                  {dict.diagnostic.q5.phoneLabel}
+                  {dict.diagnostic.q5.phoneLabel} *
                 </label>
                 <input
                   id="diag-phone"
@@ -508,20 +509,16 @@ export function DiagnosticForm({ locale, dict }: DiagnosticFormProps) {
                   enterKeyHint="send"
                   maxLength={64}
                   disabled={phase !== "idle"}
-                  aria-invalid={contactInvalid}
                   value={contactTelegram}
                   onChange={(e) => {
                     setContactTelegram(e.target.value);
-                    setContactInvalid(false);
                     setErrorMessage(null);
                   }}
                   onKeyDown={handleStep5KeyDown}
                   placeholder={dict.diagnostic.q5.telegramPlaceholder}
                   className="mt-1.5 w-full rounded-none border-b bg-transparent py-2.5 text-[16px] outline-none transition-colors focus:border-b-2 focus:border-[var(--color-accent-blue)]"
                   style={{
-                    borderColor: contactInvalid
-                      ? "var(--color-accent-error)"
-                      : "var(--color-border)",
+                    borderColor: "var(--color-border)",
                     color: "var(--color-text-primary)",
                   }}
                 />
