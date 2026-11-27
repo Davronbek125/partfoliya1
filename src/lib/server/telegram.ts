@@ -8,9 +8,26 @@ export interface TelegramSendResult {
   statusCode?: number;
 }
 
+function getTelegramCredentials(): { botToken?: string; chatId?: string } {
+  const botToken = (
+    process.env.TELEGRAM_BOT_TOKEN ||
+    process.env.BOT_TOKEN ||
+    ""
+  ).trim();
+  const chatId = (
+    process.env.TELEGRAM_CHAT_ID ||
+    process.env.CHAT_ID ||
+    ""
+  ).trim();
+
+  return {
+    botToken: botToken || undefined,
+    chatId: chatId || undefined,
+  };
+}
+
 export function isTelegramConfigured(): boolean {
-  const botToken = process.env.TELEGRAM_BOT_TOKEN?.trim();
-  const chatId = process.env.TELEGRAM_CHAT_ID?.trim();
+  const { botToken, chatId } = getTelegramCredentials();
   return Boolean(botToken && chatId);
 }
 
@@ -62,8 +79,7 @@ export function formatDiagnosticTelegramMessage(lead: DiagnosticLead): string {
 export async function sendTelegramNotification(
   messageText: string
 ): Promise<TelegramSendResult> {
-  const botToken = process.env.TELEGRAM_BOT_TOKEN?.trim();
-  const chatId = process.env.TELEGRAM_CHAT_ID?.trim();
+  const { botToken, chatId } = getTelegramCredentials();
 
   if (!botToken || !chatId) {
     return {
